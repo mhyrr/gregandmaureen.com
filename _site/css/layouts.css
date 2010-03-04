@@ -1,0 +1,118 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+.container {
+	margin-top:0px;
+	width:900px;
+}
+
+#header-container {
+	height:210px;
+	width:100%;
+}
+
+#header h1 {
+	margin-left: 130px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+#header h2 {
+	margin-left: 420px;
+}
+
+#details img {
+	position: relative;
+	left: 30px;
+	top: 30px;
+	height: 36px;
+}
+
+#pictures img {
+	position: relative;
+	left: 65px;
+	top: 30px;
+	height: 36px;
+}
+
+#registry img {
+	position: relative;
+	left: 100px;
+	top: 30px;
+	height: 36px;
+}
+
+#notes img {
+	position: relative;
+	left: 135px;
+	top: 30px;
+	height: 36px;
+}
+
+
+ul#linkbar {
+	position: relative;
+	left: 105px;
+	width: 690px;
+}
+
+ul#linkbar li {
+	float: left;
+}
+
+#main {
+	width: 900px;
+	height: 395px;
+}
+
+#overlay {
+	width: 900px;
+	height: 395px;
+}
+
+#details_content {
+	width: 900px;
+	height: 395px;
+}
+
+
+#footer-container {
+	height: 110px;
+	width: 100%;
+	margin: 0 0 0 0;
+}
+
+#info {
+	position: relative;
+	left: 105px;
+	top: 55px;
+}
+
+#rss {
+	position: relative;
+	left: 805px;
+	top: -50px;
+	height: 64px;
+	width: 64px;
+	
+/*	top: -65px;*/
+}
+
+#contact {
+	position: relative;
+	left: 105px;
+	top: -95px;
+	width: 690px;
+	text-align: center;
+	margin: 0 0 5px 0;
+}
+
+#post {
+	margin: 25px 25px 25px 25px;
+}
+
+#comments {
+	margin: 25px 25px 25px 25px;
+}
