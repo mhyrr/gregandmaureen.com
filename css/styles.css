@@ -8,6 +8,18 @@ body {
 	background: transparent;
 }
 
+#header-container {
+	background: transparent url(../images/header_bg.png) repeat-x scroll 0px 0px;
+}
+
+#footer-container {
+	background: transparent url(../images/footer_bg.png) repeat-x scroll 0px 0px;
+}
+
+#nav img {
+	padding-top: 12px;
+}
+
 #main {
 	
 }
@@ -17,8 +29,22 @@ body {
 }
 
 #details_content {
-	display: none;
-	background: transparent url(../images/gm1.png) no-repeat scroll 0px 0px;
+	background: transparent url(../images/gm.png) no-repeat scroll 0px 0px;
+}
+
+#details_content h2 {
+	font-size: 15px;
+	color: #461536;
+	margin: 2px 0px 16px 2px;
+	font-family:"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+}
+
+#details_content h1 {
+	font-size: 24px;
+	color: #461536;
+	margin: 2px 0px 16px 2px;
+	font-family:"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+	font-weight: bold;
 }
 
 h1.title a {
@@ -32,8 +58,14 @@ h1.title a {
 	text-decoration: none;
 }
 
+/*
+a:hover img {
+	border-bottom: medium solid;
+	color: #b6db7f;
+}*/
+
 a {
-	color: #703919;
+	color: #461536;
 }
 
 a:visited {
@@ -48,20 +80,11 @@ ul {
 	padding:0;
 }
 
-ul#linkbar li {
-	font-size: 15px;
-	margin: 2px 40px 0 25px;
+#info {
+	color: #b6db7f;
 	font-family:"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
-}
-
-ul#linkbar li a {
-	text-decoration: none;
-	color: #703919;
-}
-
-ul#linkbar li a:hover {
-	color: #f7ffef;
-	background-color: #49564c;
+	font-size: 12px;
+/*	left: 600px;*/
 }
 
 #post p {
@@ -88,7 +111,7 @@ ul#linkbar li a:hover {
 #post code {
 	font-family: Georgia,"Times New Roman",times-roman,serif;
 	font-size: 140%;
-	color: #703919;
+	color: #461536;
 /*	letter-spacing: -1px;*/
 	font-style: italic;
 	line-height: 1em;
@@ -103,15 +126,7 @@ ul#linkbar li a:hover {
 }
 
 #main h1,h2,h3,h4,h5,h6 {
-	color: #703919;
-}
-
-#footer-container {
-	background:transparent url(../images/footer-bg.png) repeat-x scroll 0 18px;
-}
-
-#footer {
-	background:transparent url(../images/footer-bg.png) repeat-x scroll 0 18px;
+	color: #461536;
 }
 
 #contact, #contact a {

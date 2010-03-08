@@ -1,12 +1,18 @@
 
 
 $(document).ready(function(){
-
-	$("#details a").click(function() {
-		//alert("handler for click called");
-		$("#overlay").fadeOut(250);
-		$("#details_content").fadeIn(250);
 	
+	
+	$("#nav li a").click(function() {
+		
+		$("#overlay").fadeOut(500, function() {
+					$("#details_content").fadeIn(500);
+		});
+
+		
+		
+		
+		 	
 	});
 	
 });
