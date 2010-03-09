@@ -84,6 +84,12 @@ ul#linkbar li {
 	float: left;
 }
 
+#colophon {
+	float: left;
+	padding-left: 60px;
+	padding-top: 60px;
+}
+
 #church {
 	float: left;
 	width: 250px;
