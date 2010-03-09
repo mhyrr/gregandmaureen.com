@@ -32,11 +32,10 @@ body, html {
 }
 
 #title {
-	height: 180px;
-	position: relative;
-	left: -20px;
-	top: 20px;
-	
+	float: left;
+	position: absolute;
+	left: 20px;
+	top: -20px;
 }
 
 #nav {

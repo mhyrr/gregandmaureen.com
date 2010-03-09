@@ -16,6 +16,10 @@ body {
 	background: transparent url(../images/footer_bg.png) repeat-x scroll 0px 0px;
 }
 
+#width {
+	background: transparent url(../images/container_bg.png) no-repeat scroll center 165px;
+}
+
 #nav img {
 	padding-top: 12px;
 }

@@ -31,10 +31,17 @@ body, html {
 	margin-left: 420px;
 }
 
+#title {
+	float: left;
+	position: absolute;
+	left: 20px;
+	top: -20px;
+}
+
 #nav {
 	height: 36px;
-	position:absolute;
-	left: 400px;
+	position:relative;
+	left: 100px;
 	top: 20px;
 	width: 840px;
 }
