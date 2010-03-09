@@ -92,15 +92,15 @@ ul {
 }
 
 #disqus h2 {
-	padding-left: 100px;
-	font-size: 15px;
+	padding-left: 0px;
+	font-size: 24px;
 	color: #461536;
 	margin: 2px 0px 16px 2px;
 	font-family:"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
 }
 
 #disqus p {
-	padding-left: 100px;
+	padding-left: 0px;
 	word-wrap: break-word;
 }
 
