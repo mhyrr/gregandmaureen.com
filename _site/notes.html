@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8">
 </head>
 <body class="ia">
-	<div id="width">
+	<div id="post_wrap">
 		<div id="title" class="button">
 			<a href="index.html">
 				<img alt="Home" src="../images/homelink.png">
@@ -59,29 +59,15 @@
 				</div>
 			</div>
 		</div>
-		<div id="main-container" class="container clear showgrid">
-			<div id="main">
+		<div id="disqus_container" class="container clear showgrid">
+			<div id="disqus">
 			
 			  
-<div id="post">
-	
-fooo
-</div>
+<h2>Leave us a note if you'd like!</h2>
 
-<div id="comments">
-  <h2>Comments</h2>
-  <div id="disqus_thread"></div>
-  <script type="text/javascript" src="http://disqus.com/forums/theinfiniteabyss/embed.js"></script>
-  <noscript><a href="http://theinfiniteabyss.disqus.com/?url=ref">View the discussion thread.</a></noscript>
-  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
+</br>
 
-<!-- <div id="related">
-  <h2>Related Posts</h2>
-  <ul class="posts">
-    
-  </ul>
-</div> -->
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/gregandmaureenswedding/embed.js"></script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=gregandmaureenswedding">comments powered by Disqus.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
 			</div>
 		</div>
@@ -108,19 +94,22 @@ fooo
 	var pageTracker = _gat._getTracker("UA-6016902-1");
 	pageTracker._trackPageview();
 
+	<script type="text/javascript">
 	//<![CDATA[
 	(function() {
-	    var links = document.getElementsByTagName('a');
-	    var query = '?';
-	    for(var i = 0; i < links.length; i++) {
-	      if(links[i].href.indexOf('#disqus_thread') >= 0) {
-	        query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-	      }
-	    }
-	    document.write('<script type="text/javascript" src="http://disqus.com/forums/alexgirard/get_num_replies.js' + query + '"></' + 'script>');
-	  })();
+		var links = document.getElementsByTagName('a');
+		var query = '?';
+		for(var i = 0; i < links.length; i++) {
+		if(links[i].href.indexOf('#disqus_thread') >= 0) {
+			query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+		}
+		}
+		document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/gregandmaureenswedding/get_num_replies.js' + query + '"></' + 'script>');
+	})();
 	//]]>
 	</script>
+	
+	<script type="text/javascript">  var disqus_developer = true; </script> 
 
 </body>
 </html>
