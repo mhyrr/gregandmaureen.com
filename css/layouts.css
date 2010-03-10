@@ -17,7 +17,7 @@ body, html {
 }
 
 #header-container {
-	height:210px;
+	height:140px;
 	width:100%;
 }
 
@@ -39,7 +39,7 @@ body, html {
 }
 
 #nav {
-	height: 36px;
+	height: 24px;
 	position:relative;
 	left: 100px;
 	top: 20px;
@@ -55,7 +55,7 @@ body, html {
 	list-style: none outside none;
 	width: 120px;
 	display: inline; 
-	margin: 2px -60px 2px 0px;
+	margin: 2px 0px 2px 0px;
 }
 
 ul#linkbar {
@@ -73,7 +73,7 @@ ul#linkbar li {
 	height: 395px;
 }
 
-#overlay {
+#index {
 	width: 900px;
 	height: 395px;
 }
@@ -129,7 +129,7 @@ ul#linkbar li {
 }
 
 #width {
-	min-height: 90%;
+	min-height: 96%;
 	position: relative;
 }
 
