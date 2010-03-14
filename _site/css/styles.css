@@ -34,7 +34,7 @@ body {
 
 #details_content {
 	background: transparent url(../images/gm.png) no-repeat scroll 0px 0px;
-	overflow: auto;
+/*	overflow: auto;*/
 	width: 900px;
 	height: 395px;
 }
