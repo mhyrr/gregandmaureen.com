@@ -123,14 +123,16 @@ ul#linkbar li {
 
 #macys {
 	position: relative;
-	top: 150px;
-	left: -150px;
+	top: 100px;
+	left: 150px;
+	width: 350px;
 }
 
 #cnb {
 	position: relative;
-	top: 105px;
-	left: 180px;
+	top: 60px;
+	left: 510px;
+	width: 320px;
 }
 
 #width {
